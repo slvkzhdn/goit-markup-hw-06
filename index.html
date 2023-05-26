@@ -444,8 +444,14 @@
                 </label>
 
                 <label class="form-label-checkbox checkbox-label">
-                    <input class="form-check-input" type="checkbox" name="form-agreement">
-                    <span class="form-span">I accept the terms and conditions of the <a class="checkbox-link" href="">Privat Policy</a></span>
+                    <input class="form-check-input visually-hiden" type="checkbox" name="form-agreement">
+                    <svg class="form-custom-check" width="" height="">
+                        <use class="unchecked" href="./images/icons.svg#unchecked"></use>
+                        <use class="checked" href="./images/icons.svg#checked"></use>
+                    </svg>
+                    <span class="form-span">I accept the terms and conditions of the 
+                        <a class="checkbox-link" href="">Privat Policy</a>
+                    </span>
                 </label>
 
                 <button class="btn form-btn" type="submit">Send</button>
